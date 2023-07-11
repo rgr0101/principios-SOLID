@@ -1,5 +1,5 @@
 # principios-SOLID
-![image](https://github.com/rgr0101/principios-SOLID/assets/118481840/c288cf9e-7110-4a20-9d99-03a826a8ab36)
+![image](https://github.com/rgr0101/principios-SOLID/assets/118481840/c288cf9e-7110-4a20-9d99-03a826a8ab36){:height="300px" width="500px"}
 
 #### Los cinco principios SOLID: 
 ### S => Single Responsability Principle (SRP) 
