@@ -1,5 +1,5 @@
 # principios-SOLID
-<img src="[https://github.com/rgr0101/principios-SOLID/assets/118481840/c288cf9e-7110-4a20-9d99-03a826a8ab36](https://brandslogos.com/j/java-logo-1/)" alt="image" width="200" height="100">
+<img src="https://logowik.com/content/uploads/images/731_java.jpg" alt="image" width="200" height="100">
 
 #### Los cinco principios SOLID: 
 ### S => Single Responsability Principle (SRP) 
