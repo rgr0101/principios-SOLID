@@ -1,5 +1,5 @@
 # principios-SOLID
-<img src="https://logowik.com/content/uploads/images/731_java.jpg" alt="image" width="200" height="100">
+<img src="https://brandslogos.com/wp-content/uploads/images/large/java-logo-1.png" alt="image" width="250" height="250">
 
 #### Los cinco principios SOLID: 
 ### S => Single Responsability Principle (SRP) 
@@ -32,6 +32,28 @@ public class UserController
 }
 
 ### O => Open/Closed Principle (OCP) 
+Principio Abierto / Cerrado: Establece que las entidades del software deben estar abiertas para la extensión pero cerradas para la modificación. Podemos aplicar este principio utilizando interfaces y la inyección de dependencias para permitir la extensión de funcionalidades sin modificar el código existente.
+
+public interface ProveedorPago 
+{
+    void procesarPago(Orden orden);
+}
+
+public class ProveedorPagoTarjetaCredito implements ProveedorPago 
+{
+    public void procesarPago(Orden orden) 
+    {
+        // procesar el pago con tarjeta
+    }
+}
+
+public class ProveedorPagoPayPal implements ProveedorPago 
+{
+    public void procesarPago(Orden orden) 
+    {
+        // procesar pago con PayPal
+    }
+}
 
 ### L => Liskov Substitution Principle (LSP) 
 
