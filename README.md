@@ -1,7 +1,8 @@
 # principios-SOLID
 <img src="https://brandslogos.com/wp-content/uploads/images/large/java-logo-1.png" alt="image" width="250" height="250">
 
-#### Los cinco principios SOLID: 
+#### Los cinco principios SOLID en Spring Boot: 
+
 ### S => Single Responsability Principle (SRP) 
 Principio de Responsabilidad Unica: Establece que una clase debe tener una única responsabilidad y solo debe haber una razón para que cambie. podemos ejemplificar este principio dividiendo nuestras clases en módulos y asegurándonos de que cada uno tenga una responsabilidad específica.
 ````
